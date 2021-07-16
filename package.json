@@ -1,0 +1,31 @@
+{
+  "name": "huddle-lp",
+  "version": "1.0.0",
+  "description": "![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node_modules/.bin/sass src/styles/sass/geral.scss src/styles/css/geral.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaPaludo/HuddleLP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaPaludo/HuddleLP/issues"
+  },
+  "homepage": "https://github.com/RafaPaludo/HuddleLP#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.35.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.4",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  }
+}
